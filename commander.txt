@@ -1,0 +1,5 @@
+  503  ls
+  504  cd FirstApp/
+  505  ls
+  506  npm init -y
+  507  history
