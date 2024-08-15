@@ -11,7 +11,8 @@ app.use((req, res) => {
   console.log("Hello From Any where");
   //   console.log(req);
   //   console.log(res);
-  res.send("Hello World");
+  //   res.send("Hello World");
+  res.send({ color: `red` });
 });
 
 //start with port
