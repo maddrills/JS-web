@@ -7,8 +7,11 @@ const app = express();
 console.dir(app);
 
 //serve from anywhere basically any request will default to this
-app.use(() => {
+app.use((req, res) => {
   console.log("Hello From Any where");
+  //   console.log(req);
+  //   console.log(res);
+  res.send("Hello World");
 });
 
 //start with port
